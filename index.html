@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myFilters">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Form demo</title>
+		<script src="bower_components/angular/angular.js"></script>
+  		<script src="./src/app.js"></script>
+	</head>
+<div ng-model="inputString" ng-controller="myController">
+  {{ inputString | capitalize }}
+</div>
