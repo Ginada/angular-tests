@@ -1,0 +1,24 @@
+{
+  "name": "angular-tests",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Ginada/angular-tests",
+  "authors": [
+    "Ginada <ginadam@gmail.com>"
+  ],
+  "description": "testing exercise",
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.6"
+  },
+  "dependencies": {
+    "angular": "~1.4.6"
+  }
+}

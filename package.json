@@ -1,0 +1,25 @@
+{
+  "name": "angular-tests",
+  "version": "1.0.0",
+  "description": "karma test",
+  "main": "app.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ginada/angular-tests.git"
+  },
+  "author": "Gina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ginada/angular-tests/issues"
+  },
+  "homepage": "https://github.com/Ginada/angular-tests#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.10",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6"
+  }
+}
