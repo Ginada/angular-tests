@@ -1,5 +1,5 @@
 'use strict';
-var app = angular.module('myFilters', [])
+angular.module('myFilters', [])
 	.filter('capitalize', function () {
 		return function (input) {
 			if (angular.isString(input)) {
@@ -10,9 +10,5 @@ var app = angular.module('myFilters', [])
 			}
 		};
 	})
-	.controller('myController', function($scope){
-		$scope.inputString = "beforE string"
-		$scope.validate = function(myString){
-			return myString;
-		};
-	});
+
+
